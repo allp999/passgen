@@ -1,4 +1,4 @@
-using System;
+п»їusing System;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Collections.Generic;
@@ -46,7 +46,7 @@ namespace PassGen
             
             startgen.Size = new Size(210, 30);
             startgen.Location = new Point(20, 140);
-            startgen.Text = "Сгенерировать";
+            startgen.Text = "РЎРіРµРЅРµСЂРёСЂРѕРІР°С‚СЊ";
             startgen.Click += generate;
             this.Controls.Add(startgen);
             
@@ -57,27 +57,27 @@ namespace PassGen
             
             label1.Size = new Size(60, 30);
             label1.Location = new Point(166, 52);
-            label1.Text = "Длина";
+            label1.Text = "Р”Р»РёРЅР°";
             this.Controls.Add(label1);
             
             upper.Size = new Size(150, 20);
             upper.Location = new Point(20,50);
-            upper.Text = "Заглавные буквы";
+            upper.Text = "Р—Р°РіР»Р°РІРЅС‹Рµ Р±СѓРєРІС‹";
             this.Controls.Add(upper);
             
             lower.Size = new Size(150, 20);
             lower.Location = new Point(20,70);
-            lower.Text = "Маленькие буквы";
+            lower.Text = "РњР°Р»РµРЅСЊРєРёРµ Р±СѓРєРІС‹";
             this.Controls.Add(lower);
             
             digit.Size = new Size(150, 20);
             digit.Location = new Point(20,90);
-            digit.Text = "Цифры";
+            digit.Text = "Р¦РёС„СЂС‹";
             this.Controls.Add(digit);
             
             spec.Size = new Size(150, 20);
             spec.Location = new Point(20,110);
-            spec.Text = "Спецсимволы";
+            spec.Text = "РЎРїРµС†СЃРёРјРІРѕР»С‹";
             this.Controls.Add(spec);
         }
     
